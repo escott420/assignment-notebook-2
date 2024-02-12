@@ -14,6 +14,7 @@
 		5E1476772B7A724700D51196 /* assignment_notebook_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476762B7A724700D51196 /* assignment_notebook_2Tests.swift */; };
 		5E1476812B7A724700D51196 /* assignment_notebook_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476802B7A724700D51196 /* assignment_notebook_2UITests.swift */; };
 		5E1476832B7A724700D51196 /* assignment_notebook_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476822B7A724700D51196 /* assignment_notebook_2UITestsLaunchTests.swift */; };
+		5E1476902B7A8E4500D51196 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14768F2B7A8E4500D51196 /* AssignmentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5E14767C2B7A724700D51196 /* assignment notebook 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "assignment notebook 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1476802B7A724700D51196 /* assignment_notebook_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment_notebook_2UITests.swift; sourceTree = "<group>"; };
 		5E1476822B7A724700D51196 /* assignment_notebook_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment_notebook_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E14768F2B7A8E4500D51196 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5E1476672B7A724500D51196 /* ContentView.swift */,
 				5E1476692B7A724700D51196 /* Assets.xcassets */,
 				5E14766B2B7A724700D51196 /* Preview Content */,
+				5E14768F2B7A8E4500D51196 /* AssignmentList.swift */,
 			);
 			path = "assignment notebook 2";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1476902B7A8E4500D51196 /* AssignmentList.swift in Sources */,
 				5E1476682B7A724500D51196 /* ContentView.swift in Sources */,
 				5E1476662B7A724500D51196 /* assignment_notebook_2App.swift in Sources */,
 			);
