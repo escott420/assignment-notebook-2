@@ -13,7 +13,15 @@ struct ContentView: View {
         NavigationView{
             List{
                 ForEach(assignmentItems, id: \.id) { AssignmentItem in
-                    Text(AssignmentItem.description)
+                    HStack{
+                        VStack(alignment: .leading){
+                            Text(AssignmentItem.course)
+                                .font(.headline)
+                            Text(AssignmentItem.description)
+                        }
+                        Spacer()
+                        Text(AssignmentItem.dueDate, style: .date)
+                    }
                 }
                 .onMove { indices, newOffset in assignmentItems.move(fromOffsets: indices, toOffset: newOffset)
                 }
