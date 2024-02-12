@@ -12,10 +12,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                ForEach(assignmentItems) { AssignmentItem in
+                ForEach(assignmentItems, id: \.id) { AssignmentItem in
                     Text(AssignmentItem.description)
                 }
+                .onMove { indices, newOffset in assignmentItems.move(fromOffsets: indices, toOffset: newOffset)
+                }
+                .onDelete { IndexSet in assignmentItems.remove(atOffsets: IndexSet)
+                }
             }
+            .navigationBarTitle("Assignment Notebook")
+            .navigationBarItems(leading: EditButton())
         }
     }
 }
