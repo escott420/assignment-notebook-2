@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var assignmentItems = [AssignmentItem(course: "Math", description: "Delta Math", dueDate: Date()), AssignmentItem(course: "English", description: "Essay", dueDate: Date()), AssignmentItem(course: "Comp Sci", description: "Unit 2 test", dueDate: Date())]
     var body: some View {
         VStack {
             Image(systemName: "globe")
